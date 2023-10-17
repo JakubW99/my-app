@@ -24,6 +24,8 @@
     "src",
     "components",
     "components/footer",
-    "components/header"
+    "components/header",
+    "components/data"
+
   ]
 }

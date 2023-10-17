@@ -4,6 +4,7 @@ import App from './App';
 import Car from './components/Car';
 import Footer from './components/footer/Footer'
 import Header from './components/header/header'
+import DataComponent from './components/data/DataComponent';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -11,8 +12,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Header/>
+    <DataComponent/>
     <Car/>
     <App />
+   
     <Footer/>
   </React.StrictMode>
 );
